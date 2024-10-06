@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Center the content vertically */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the welcome section */
+section {
+    max-width: 600px;
+}
+
+/* Auth links styling (Login & Register) */
+.auth-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px; /* Adds space below welcome message */
+}
+
+.auth-links li {
+    margin: 10px 0;
+}
+
+.auth-links li a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 150px; /* Adjust to make links appear as buttons */
+}
+
+.auth-links li a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
